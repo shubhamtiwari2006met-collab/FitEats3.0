@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitEats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    
+  <title>Registration Form</title>
+
+  <!-- Font Awesome CDN (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <style>
+    /* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background: rgb(238, 55, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container box */
+.container {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Heading */
+.container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.form-container {
+  width: 100%;
+}
+
+/* Input field container */
+.input-name {
+  display: flex;
+  align-items: center;
+  border: 1px solid orange;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+/* Icons */
+.input-name i {
+  margin: 0 8px;
+  color: #000;
+}
+
+/* Input fields */
+.input-name input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 8px;
+}
+
+/* Style span for Last Name */
+.input-name span {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid orange;
+  padding-left: 8px;
+}
+
+/* Radio buttons */
+.radio-button {
+  margin: 0 8px;
+}
+
+/* Register button */
+button, .register-btn {
+  width: 100%;
+  padding: 10px;
+  background: orange;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: rgb(238, 55, 55);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+  background: rgb(238, 55, 55);
+}
+
+
+button:hover, .register-btn:hover {
+  background: rgb(238, 55, 55);
+}
+
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+    <h1>Registration Form</h1>
+    <div class="form-container">
+      <form>
+        <div class="input-name">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="First Name" class="name">
+        </div>
+        <div class="input-name">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Last Name" class="name">
+        </div>
+
+        <div class="input-name">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Email" class="name">
+        </div>
+
+        <div class="input-name">
+            <i class="fa-solid fa-calendar"></i>
+            <input type="text" placeholder="DOB" class="name">
+        </div>
+
+        <div class="input-name">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" placeholder="Password" class="name">
+        </div>
+
+        <div class="input-name">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" placeholder="Confirm Password" class="name">
+        </div>
+
+        <div class="input-name">
+  <input type="radio" name="gender" class="radio-button" id="male">
+  <label for="male">Male</label>
+
+  <input type="radio" name="gender" class="radio-button" id="female">
+  <label for="female">Female</label>
+</div>
+
+<div class="input-name">
+    <input type="submit" placeholder="Register">
+</div>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+    </div>
+</body>
+</html>
+
